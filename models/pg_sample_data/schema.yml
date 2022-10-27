@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: pg_sample_data
+    description: 'A sample database provided by pg'
+    database: stage
+    schema: mes
+    tables:
+      - name: dataserver_data
